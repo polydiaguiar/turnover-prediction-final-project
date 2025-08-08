@@ -5,10 +5,13 @@
 
 🎓 Projeto Final da Trilha de Ciência de Dados do Bootcamp RESTART, 2025: Predição de Turnover (Rotatividade) de Funcionários com Machine Learning.  
 ___
-# DOCUMNETAÇÃO
+# DOCUMENTAÇÃO
 
-### Resumo do projeto
+### DADOS
 
+### FERRAMENTAS
+
+### METODOLOGIA
 Este projeto segue a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining) com as seguintes etapas: 
 1. Entendimento do Negócio: objetivo do projeto alinhado às dores e perguntas de negócio, determinar objetivo do projeto, elaborar plano do projeto. 
 2. Entendimento dos Dados: carregar dados, descrever dados, explorar dados, verificar qualidade dos dados. 
@@ -33,3 +36,6 @@ Compare métricas (ex.: AUC, precisão) contra objetivos.
 Implantação (Deployment)
 
 Coloque o modelo em produção (ex.: API, cloud).
+
+___
+### 1. Entendimento do Negócio
