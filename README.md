@@ -73,10 +73,10 @@ ___
 * **YearsSinceLastPromotion:** Tempo desde a última promoção (em anos).  
 * **YearsWithCurrManager:** Tempo com o mesmo gerente (em anos).
 
-** 📚 Referência Dados**
+**📚 Referência Dados**
 **Title:** “IBM HR Analytics Attrition & Performance
 **Source:** [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
 **Author:** pavansubhash
 **License:** Database Contents License (DbCL) v1.0
 
-** 📚 Referência Dados**
+
