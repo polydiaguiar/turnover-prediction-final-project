@@ -74,9 +74,33 @@ ___
 * **YearsWithCurrManager:** Tempo com o mesmo gerente (em anos).
 
 **📚 Referência Dados**
+
 **Title:** “IBM HR Analytics Attrition & Performance
 **Source:** [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
 **Author:** pavansubhash
 **License:** Database Contents License (DbCL) v1.0
 
+___
+### 2. Preparo dos Dados
 
+
+
+
+
+___
+### 2. Modelagem
+
+ #### **Estratégia de avaliação**
+ 
+ * Métricas: F1-Score e custo computacional.
+ * Justificativa: Os falsos negativos (colaboradores que saem sem serem previstos pelo modelo) representam um custo significativamente maior para a organização do que os falsos positivos (ações de retenção desnecessárias). O F1-Score, que balanceia precisão e recall, é a métrica ideal para avaliar esse trade-off. Paralelamente, a eficiência computacional é crucial para arantir tempos de resposta ágeis na tomada de decisão, permitir a escalabilidade do modelo com otimização dos custos operacionais além de se alinhar com estratégias de sustentabilidade.
+
+  #### **Modelos testados**  
+* Os modelos testados foram Regressão Logística, Logistic Regression (L2 - Ridge), Logistic Regression (L1 - LASSO) e Random Forest.
+* Justificativa: modelos com boa explicabilidade, requisito levantado na definição do problema de negócio.
+
+<img width="1206" height="301" alt="image" src="https://github.com/user-attachments/assets/a6cedb02-115c-4b91-85cf-c9a99ea0aca5" />
+
+ 
+
+  
