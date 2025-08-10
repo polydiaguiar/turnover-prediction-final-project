@@ -81,14 +81,14 @@ ___
 **License:** Database Contents License (DbCL) v1.0
 
 ___
-### 2. Preparo dos Dados
+### 3. Preparo dos Dados
 
 
 
 
 
 ___
-### 2. Modelagem
+### 4. Modelagem
 
  #### **Estratégia de avaliação**
  
