@@ -9,19 +9,17 @@ ___
 
 ### METODOLOGIA
 Este projeto segue a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining) com as seguintes etapas: 
+
 1. Entendimento do Negócio: objetivo do projeto alinhado às dores e perguntas de negócio, determinar objetivo do projeto, elaborar plano do projeto. 
 2. Entendimento dos Dados: carregar dados, descrever dados, explorar dados, verificar qualidade dos dados. 
-3. Preparo dos dados: selecionar dados, limpar, feature engineering, formatar dados.
-4. Modelagem: selecionar modelo, treinar, designing tests, ajustar modelo e avaliar modelo. 
-5. Avaliação dos modelos 
-6. Deployment: planejar deployment (próximos passos).
+3. Preparo dos dados: pré-seleção de features.
+4. Modelagem: selecionar modelo, treinar, ajustar modelo e avaliar modelo. 
+5. Avaliação do modelos: importância das features, validação cruzada.
+
 
 ### FERRAMENTAS
 ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
-[![Pandas](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
-
-[![Numpy](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 ___
 
 ### 1. Entendimento do Negócio
@@ -43,8 +41,7 @@ ___
 * **DailyRate:** Diária, valor de um dia de trabalho(valor numérico).  
 * **Department:** Departamento do funcionário (ex: "Sales", "Research & Development", "Human Resources").  
 * **DistanceFromHome:** Distância entre casa e trabalho (em km).  
-* **Education:** Nível educacional (1-5, onde 1="Below College", 5="Doctor").  
-* **EducationField:** Área de formação (ex: "Life Sciences", "Medical", "Technical Degree").  
+* **Education:** Nível educacional (1-5, onde 1="Below College", 5="Doctor").  * **EducationField:** Área de formação (ex: "Life Sciences", "Medical", "Technical Degree").  
 * **EmployeeCount:** Contagem de funcionários (normalmente 1 para registros individuais).  
 * **EmployeeNumber:** ID único do funcionário.  
 * **EnvironmentSatisfaction:** Satisfação com o ambiente de trabalho (escala numérica, normalmente 1-4).  
@@ -75,17 +72,23 @@ ___
 
 **📚 Referência Dados**
 
-**Title:** “IBM HR Analytics Attrition & Performance
-**Source:** [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
-**Author:** pavansubhash
-**License:** Database Contents License (DbCL) v1.0
+* **Title:** “IBM HR Analytics Attrition & Performance
+* **Source:** [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset/data)
+* **Author:** pavansubhash
+* **License:** Database Contents License (DbCL) v1.0
+
+**1. ENTENDENDO DADOS**
+   
+<img width="990" height="201" alt="image" src="https://github.com/user-attachments/assets/01c6e16c-7e64-46cc-bfc0-64e68d30bd70" />
+<img width="1000" height="240" alt="image" src="https://github.com/user-attachments/assets/9782e3de-c247-4126-8aa4-85670cd63f7d" />
+
+<img width="1007" height="282" alt="image" src="https://github.com/user-attachments/assets/2773b431-0fef-4453-8f64-4e5ea10ca007" />
+<img width="1002" height="349" alt="image" src="https://github.com/user-attachments/assets/ede95caf-3e9d-411e-b625-99f6ba4adfbf" />
+<img width="993" height="250" alt="image" src="https://github.com/user-attachments/assets/a54f717b-d4f9-42bf-8436-537aa712b16d" />
 
 ___
 ### 3. Preparo dos Dados
-
-
-
-
+<img width="990" height="135" alt="image" src="https://github.com/user-attachments/assets/f27e53c9-2f70-45a9-a25c-b1f0c67e7aa6" />
 
 ___
 ### 4. Modelagem
@@ -101,6 +104,10 @@ ___
 
 <img width="1206" height="301" alt="image" src="https://github.com/user-attachments/assets/a6cedb02-115c-4b91-85cf-c9a99ea0aca5" />
 
- 
+ * Ajuste de Hiperparâmetros com GridSearchCV
+<img width="555" height="212" alt="image" src="https://github.com/user-attachments/assets/4f46f82a-4877-4128-8f68-82eabe5cab0c" />
 
-  
+* Faeture Importance e Seleção de Feature para modelagem final com Permurarion Importance e Feature Importance (Coeficientes)
+   
+___
+### 5. Treino e Avaliação de Modelo
