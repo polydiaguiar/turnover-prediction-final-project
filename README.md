@@ -8,13 +8,14 @@ ___
 # DOCUMENTAÇÃO
 
 ### METODOLOGIA
-Este projeto segue a metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining) com as seguintes etapas: 
+Este projeto se baseia com adaptações na metodologia CRISP-DM (Cross-Industry Standard Process for Data Mining) com as seguintes etapas: 
 
 1. Entendimento do Negócio: objetivo do projeto alinhado às dores e perguntas de negócio, determinar objetivo do projeto, elaborar plano do projeto. 
 2. Entendimento dos Dados: carregar dados, descrever dados, explorar dados, verificar qualidade dos dados. 
 3. Preparo dos dados: pré-seleção de features.
 4. Modelagem: selecionar modelo, treinar, ajustar modelo e avaliar modelo. 
 5. Avaliação do modelos: importância das features, validação cruzada.
+6. Conclusão
 
 
 ### FERRAMENTAS
@@ -107,7 +108,20 @@ ___
  * Ajuste de Hiperparâmetros com GridSearchCV
 <img width="555" height="212" alt="image" src="https://github.com/user-attachments/assets/4f46f82a-4877-4128-8f68-82eabe5cab0c" />
 
-* Faeture Importance e Seleção de Feature para modelagem final com Permurarion Importance e Feature Importance (Coeficientes)
+* Feature Importance e Seleção de Feature para modelagem final com Permurarion Importance e Feature Importance (Coeficientes).
    
 ___
 ### 5. Treino e Avaliação de Modelo
+
+* Após exclusão de fetures menos importantes o modelo otimizado foi treinado, avaliado e salvo.
+
+___
+### 6. Conclusão
+
+<img width="652" height="136" alt="image" src="https://github.com/user-attachments/assets/87f9ab90-673b-4cc8-80f5-8017353ef473" />
+
+<img width="540" height="166" alt="image" src="https://github.com/user-attachments/assets/902f88a9-c1e6-4e24-9198-b0c70bf5813f" />
+
+<img width="713" height="317" alt="image" src="https://github.com/user-attachments/assets/9b1404ef-633a-43c2-852d-621479e4e38c" />
+
+<img width="706" height="248" alt="image" src="https://github.com/user-attachments/assets/88bed8b4-3227-43a5-b57e-abc2192caa0b" />
